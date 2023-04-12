@@ -3,7 +3,7 @@
 // config for Tiktoken
 return [
     // Cache folder for vocab files
-    'cache_dir' => storage_path('tiktoken'),
+    'cache_dir' => storage_path('framework/cache/tiktoken'),
 
     /**
      * The default encoder

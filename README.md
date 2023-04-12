@@ -26,7 +26,7 @@ This is the contents of the published config file:
 ```php
 return [
     // Cache folder for vocab files
-    'cache_dir' => storage_path('tiktoken'),
+    'cache_dir' => storage_path('framework/cache/tiktoken'),
 
     /**
      * The default encoder
