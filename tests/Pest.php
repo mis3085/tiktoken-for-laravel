@@ -1,5 +1,5 @@
 <?php
 
-use VendorName\Skeleton\Tests\TestCase;
+use Mis3085\Tiktoken\Tests\TestCase;
 
 uses(TestCase::class)->in(__DIR__);
