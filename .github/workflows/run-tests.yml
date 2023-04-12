@@ -19,6 +19,7 @@ jobs:
         include:
           - laravel: 9.*
             testbench: 7.*
+            carbon: ^2.53
           - laravel: 10.*
             testbench: 8.*
             carbon: ^2.63
