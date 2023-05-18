@@ -57,4 +57,22 @@ class Tiktoken
     {
         return $this->encoder->decode($tokens);
     }
+
+    public function limit(string $text, int $limit): string
+    {
+        if ($limit < 1) {
+            return $text;
+        }
+
+        $tokens = $this->encode($text);
+
+        $new = $this->decode(array_slice($tokens, 0, $limit));
+
+        while (!mb_check_encoding($new, 'UTF-8') && $limit >= 1) {
+            $limit--;
+            $new = $this->decode(array_slice($tokens, 0, $limit));
+        }
+
+        return $new;
+    }
 }
