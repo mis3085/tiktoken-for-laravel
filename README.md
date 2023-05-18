@@ -56,6 +56,14 @@ Tiktoken::encode('測試');
 Tiktoken::count('測試');
 // 4
 
+// Truncate a string to the specified length of tokens
+Tiktoken::limit('this is a test', 2);
+// this is
+Tiktoken::limit('測試', 2);
+// 測
+Tiktoken::limit('測試', 1);
+// EMPTY STRING
+
 // Decode
 Tiktoken::decode([ 35086, 105, 50520, 99 ]);
 // 測試
