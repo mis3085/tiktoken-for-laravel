@@ -2,6 +2,13 @@
 
 All notable changes to `tiktoken-for-laravel` will be documented in this file.
 
+## v0.1.5 - 2026-04-15
+
+### What's Changed
+
+- Bump `yethee/tiktoken` dependency to `^1.1.1`.
+- Includes merged updates from recently merged PRs on `main`.
+
 ## 0.1.4 - 2025-03-05
 
 Add support for Laravel 12.
