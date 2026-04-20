@@ -8,7 +8,7 @@
     processIsolation="false"
     stopOnFailure="false"
     executionOrder="random"
-    failOnWarning="false"
+    failOnWarning="true"
     failOnRisky="true"
     failOnEmptyTestSuite="true"
     beStrictAboutOutputDuringTests="true"
