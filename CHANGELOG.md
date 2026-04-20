@@ -2,6 +2,13 @@
 
 All notable changes to `tiktoken-for-laravel` will be documented in this file.
 
+## v0.1.7 - 2026-04-20
+
+### What's Changed
+
+- Fix CI matrix installation by skipping composer scripts during dependency update in `run-tests`.
+- Improve cross-platform dependency constraints in workflow to avoid Windows shell constraint parsing issues.
+
 ## v0.1.6 - 2026-04-20
 
 ### What's Changed
