@@ -19,10 +19,10 @@ jobs:
         include:
           - laravel: 9.*
             testbench: 7.*
-            carbon: ^2.63
+            carbon: '>=2.63'
           - laravel: 10.*
             testbench: 8.*
-            carbon: ^2.63
+            carbon: '>=2.63'
 
     name: P${{ matrix.php }} - L${{ matrix.laravel }} - ${{ matrix.stability }} - ${{ matrix.os }}
 
