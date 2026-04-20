@@ -2,6 +2,13 @@
 
 All notable changes to `tiktoken-for-laravel` will be documented in this file.
 
+## v0.1.6 - 2026-04-20
+
+### What's Changed
+
+- Add support for Laravel 13.
+- Expand compatibility constraints for PHP and development dependencies.
+
 ## v0.1.5 - 2026-04-15
 
 ### What's Changed
